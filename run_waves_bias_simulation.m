@@ -64,7 +64,7 @@ switch ADCP.ORIENTATION
         PL.z0 = 0; % initial platform position (z)
         % Downward ADCP parameters
         ADCP.bins = -[0:20]'/10/WS.k; % positive = upward
-        ADCP.N_BEAMS = 5; s
+        ADCP.N_BEAMS = 5; 
         ADCP.BEAM_ANGLE = 25;
         fn = sprintf('wm-down-%s%c',PL.MOTION,PL.TILT); % create a file name
     case 'UPDOWN',
