@@ -3,7 +3,7 @@ function plot_wave_bias_ADCP(PL)
 % This version displays the realistic ADCP sampling (with beam processing)
 % Call:
 %   plot_wave_bias_ADCP(file) or plot_wave_bias_ADCP(PL)
-% where PL is the structure created by make_waves.
+% where PL is the structure created by simulate_wave_bias.
 
 if ~isstruct(PL)
     PL = load(PL);

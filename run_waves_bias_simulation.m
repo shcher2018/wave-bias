@@ -76,7 +76,7 @@ switch ADCP.ORIENTATION
         fn = sprintf('wm-updown-%s%c',PL.MOTION,PL.TILT);
 end
 
-ADCP = calculate_ADCP_beams(ADCP); % calculate the beam projection coefficients
+ADCP = calculate_ADCP_geometry(ADCP); % calculate the beam projection coefficients
 nbins = length(ADCP.bins);
 
 

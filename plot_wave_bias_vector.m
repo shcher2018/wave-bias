@@ -3,7 +3,7 @@ function plot_wave_bias_vector(PL)
 % This version displays the "vector" sampling (i.e., no beam processing)
 % Call:
 %   plot_wave_bias_vector(file) or plot_wave_bias_vector(PL)
-% where PL is the structure created by make_waves.
+% where PL is the structure created by simulate_wave_bias.
 
 if ~isstruct(PL)
     PL = load(PL);
